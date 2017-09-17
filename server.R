@@ -1,10 +1,4 @@
-library(shiny)
-library(DT)
-library(lingtypology)
-library(ggplot2)
-library(dplyr)
-library(markdown)
-library(leaflet)
+library(shiny); library(DT); library(lingtypology); library(ggplot2); library(dplyr); library(markdown); library(leaflet)
 
 function(input, output) {
 # section for word search -------------------------------------------------
@@ -32,13 +26,17 @@ function(input, output) {
            grepl(act, Action),
            grepl(part_wholes, Parts.wholes)) ->
       database
+  validate(need(nrow(database) > 0,
+                "This combination of features for this meaning is not attested."))
     map.feature(database$languages,
                 label = database$language,
                 map.orientation = "Atlantic",
                 features = database$form.image.assocaition.pattern,
                 popup = paste("<video width='200' height='150' controls> <source src='",
                               as.character(database$urls),
-                              "' type='video/mp4'></video>", sep = ""))})
+                              "' type='video/mp4'></video>", sep = ""),
+                zoom.level = 2,
+                zoom.control = TRUE)})
 
 # section for semantic field search ---------------------------------------
   output$field_map <- renderLeaflet({
@@ -70,25 +68,36 @@ function(input, output) {
     map.feature(database$languages,
                 label = paste0(database$language, " (", database_count$n, ")"),
                 map.orientation = "Atlantic",
-                radius = database_count$n*5)})
+                radius = database_count$n*5,
+                zoom.level = 2,
+                zoom.control = TRUE)})
 
 # section for graphs ------------------------------------------------------
   output$graph_picture <- renderPlot({
-    database %>%
-      filter(semantic.field %in% input$graph_field) %>% 
-      count(word, languages) %>%
-      left_join(database) %>%
+    if(input$graph_field != "all"){
+      database %>%
+        filter(semantic.field %in% input$graph_field) ->
+        database
+    }
+    
+    database %>% 
       mutate(pattern = ifelse(grepl(input$iconicity_pattern_graph, form.image.assocaition.pattern),
                               paste(input$iconicity_pattern_graph),
-                              "other types")) ->
-      database
+                              "other types")) %>% 
+      count(languages, pattern) ->
+      database_m
+    
+    ifelse(input$graph_field != "all",
+           database_t <- database[, c(1, 6, 4)],
+           database_t <- database[, c(1, 2, 6, 4)])
+    
     output$graph_table <- DT::renderDataTable(
-      database[,c(1, 2, 6)],
+      database_t,
       filter = 'top',
       rownames = FALSE,
       options = list(pageLength = 7, autoWidth = FALSE, dom = 'tip'),
       escape = FALSE)
-    database %>% 
+    database_m %>% 
       ggplot(aes(languages, n, fill = pattern))+
       geom_bar(stat = "identity", position = "dodge")+
       coord_flip()+
