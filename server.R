@@ -1,4 +1,11 @@
-library(shiny); library(DT); library(lingtypology); library(ggplot2); library(dplyr); library(markdown); library(leaflet)
+library(shiny)
+library(DT)
+library(lingtypology)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(markdown)
+library(leaflet)
 
 function(input, output) {
 # section for word search -------------------------------------------------
@@ -9,6 +16,23 @@ function(input, output) {
     rownames = FALSE,
     options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
     escape = FALSE)
+  database %>% 
+    mutate(object = ifelse(grepl("object", form.image.assocaition.pattern),
+                           "object",
+                           NA),
+           handling = ifelse(grepl("handling", form.image.assocaition.pattern),
+                             "handling",
+                             NA),
+           tracing = ifelse(grepl("tracing", form.image.assocaition.pattern),
+                            "tracing",
+                            NA),
+           contour = ifelse(grepl("contour", form.image.assocaition.pattern),
+                            "contour",
+                            NA)) %>%
+    gather(pattern_column, pattern, object:contour) %>%
+    na.omit() %>% 
+    select(-pattern_column) ->
+    database_p
   output$word_map <- renderLeaflet({
   loc <- ifelse(input$loc == "yes", "1", "[^1]")
   if(input$loc == "all"){loc <- "[01-]"}
@@ -74,33 +98,45 @@ function(input, output) {
 
 # section for graphs ------------------------------------------------------
   output$graph_picture <- renderPlot({
+    title <- "Destribution of the Iconicity patterns in all semantic fields"
     if(input$graph_field != "all"){
-      database %>%
+      database_p %>%
         filter(semantic.field %in% input$graph_field) ->
-        database
+        database_p
+      title <- paste("Destribution of the Iconicity patterns in the semantic field", input$graph_field)
     }
-    
-    database %>% 
-      mutate(pattern = ifelse(grepl(input$iconicity_pattern_graph, form.image.assocaition.pattern),
-                              paste(input$iconicity_pattern_graph),
-                              "other types")) %>% 
-      count(languages, pattern) ->
-      database_m
-    
+
     ifelse(input$graph_field != "all",
-           database_t <- database[, c(1, 6, 4)],
-           database_t <- database[, c(1, 2, 6, 4)])
-    
+           database_t <- database_p[, c(1, 6, 4)],
+           database_t <- database_p[, c(1, 2, 6, 4)])
     output$graph_table <- DT::renderDataTable(
       database_t,
       filter = 'top',
       rownames = FALSE,
       options = list(pageLength = 7, autoWidth = FALSE, dom = 'tip'),
       escape = FALSE)
-    database_m %>% 
-      ggplot(aes(languages, n, fill = pattern))+
-      geom_bar(stat = "identity", position = "dodge")+
-      coord_flip()+
-      theme_bw()
-    })
+    if(input$graph_type == "absolute values"){
+      database_p %>% 
+        mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
+        ggplot(aes(pattern, fill = pattern))+
+        geom_bar(aes(y = ..count.., fill = factor(..x..)), position = "dodge", show.legend = FALSE, stat = "count")+
+        geom_text(aes(label = ..count..,
+                      y= ..count..+..count..*0.1+1), stat= "count") +
+        labs(x = "", y = "absolute values", title = title)+
+        facet_wrap(~languages)+
+        theme_bw()+
+        coord_flip()
+    } else {
+      database_p %>% 
+        mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
+        ggplot(aes(pattern, group = languages)) + 
+        geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + 
+        geom_text(aes(label = scales::percent(..prop..),
+                      y= ..prop..+0.2), stat= "count") +
+        scale_y_continuous(labels=scales::percent) +
+        labs(y = "percantage", title = title, x = "") +
+        facet_wrap(~languages)+
+        theme_bw()+
+        coord_flip()
+      }})
   }
