@@ -17,6 +17,7 @@ function(input, output) {
     options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
     escape = FALSE)
   database %>% 
+    mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
     mutate(object = ifelse(grepl("object", form.image.assocaition.pattern),
                            "object",
                            NA),
@@ -117,7 +118,6 @@ function(input, output) {
       escape = FALSE)
     if(input$graph_type == "absolute values"){
       database_p %>% 
-        mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
         ggplot(aes(pattern, fill = pattern))+
         geom_bar(aes(y = ..count.., fill = factor(..x..)), position = "dodge", show.legend = FALSE, stat = "count")+
         geom_text(aes(label = ..count..,
@@ -128,7 +128,6 @@ function(input, output) {
         coord_flip()
     } else {
       database_p %>% 
-        mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
         ggplot(aes(pattern, group = languages)) + 
         geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + 
         geom_text(aes(label = scales::percent(..prop..),
