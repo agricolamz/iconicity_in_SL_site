@@ -131,7 +131,7 @@ function(input, output) {
         ggplot(aes(pattern, group = languages)) + 
         geom_bar(aes(y = ..prop.., fill = factor(..x..)), stat="count", show.legend = FALSE) + 
         geom_text(aes(label = scales::percent(..prop..),
-                      y= ..prop..+0.2), stat= "count") +
+                      y= ..prop..+0.1), stat= "count") +
         scale_y_continuous(labels=scales::percent) +
         labs(y = "percantage", title = title, x = "") +
         facet_wrap(~languages)+
