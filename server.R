@@ -121,7 +121,7 @@ function(input, output) {
         ggplot(aes(pattern, fill = pattern))+
         geom_bar(aes(y = ..count.., fill = factor(..x..)), position = "dodge", show.legend = FALSE, stat = "count")+
         geom_text(aes(label = ..count..,
-                      y= ..count..+..count..*0.1+1), stat= "count") +
+                      y= ..count..+..count..*0.15+1), stat= "count") +
         labs(x = "", y = "absolute values", title = title)+
         facet_wrap(~languages)+
         theme_bw()+
