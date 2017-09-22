@@ -46,10 +46,10 @@ In order to address this issue, we decided to separate this classification into 
 
 |          | &nbsp;&nbsp;   | + personification |  &nbsp;&nbsp;   | - personification |
 |----------|---|-------------------|----|-------------------|
-| Handling |   | e.g. RSL HAMMER   |    | does not exist    |
-| Object   |   | e.g. PSL BIRD     |    | e.g. RSL CHAIR    |
-| Contour  |   | does not exist    |    | e.g. RSL HOUSE    |
-| Tracing  |   | does not exist    |    | e.g. RSL MOUNTAIN |
+| Handling |   | e.g. RSL [HAMMER](https://media.spreadthesign.com/video/mp4/12/56.mp4 )   |    | does not exist    |
+| Object   |   | e.g. PSL [BIRD](https://media.spreadthesign.com/video/mp4/19/59866.mp4)     |    | e.g. RSL [CHAIR](https://media.spreadthesign.com/video/mp4/12/7905.mp4)    |
+| Contour  |   | does not exist    |    | e.g. RSL [HOUSE](https://media.spreadthesign.com/video/mp4/12/349172.mp4)    |
+| Tracing  |   | does not exist    |    | e.g. RSL [MOUNTAIN](https://media.spreadthesign.com/video/mp4/12/16407.mp4) |
 --
 
 The main body of problems concerns the concept-image associations. As Klezovich discusses, unlike the form-image associations, concept-image associations are not mutually exclusive. For instance, the prototypical member association appears to be a default: it is always present. For instance, if the sign describes a part of an animal (e.g. whiskers of a cat) and thus represents a part-whole association, it often if not always describes a prototypical part of a prototypical animal. The same is true for the associated action association: if the sign describes some action associated with an object (e.g. turning a key, see RSL [KEY](https://media.spreadthesign.com/video/mp4/12/228353.mp4)), it is a prototypical action and a prototypical object in most if not all cases. The part-whole and the associated action are also compatible with each other: a sign for elephant often refers to the trunk of an elephant, but it also can move in a manner resembling the movement of an elephant’s trunk (e.g. Brazilian SL sign [ELEPHANT](https://media.spreadthesign.com/video/mp4/14/314556.mp4)). Finally, the associated concept association normally concerns abstract signs only, so it might have to be considered separately, alongside with metaphorical associations. 
