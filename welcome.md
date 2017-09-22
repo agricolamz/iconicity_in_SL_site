@@ -9,12 +9,12 @@ This resource contains different types of data:
 
 You can read more about the methodology of our research on the About tab.
 
-## Contats 
+## Contacts 
 Project members:
 
-* Vadim Kimmelman (vadimkmm@mail.ru)
+* Vadim Kimmelman (vadim.kimmelman@gmail.com)
 * Anna Klezovich (belkannkl@gmail.com)
 * George Moroz (agricolamz@hse.ru)
 
 ## Citation
-When using this web resource, please acknowledge it by including the URL ([LINK]) and the following reference: Kimmelman, Vadim, Anna Klezovich and George Moroz. 2017. *Iconicity Patterns in Sign Languages.* URL: [LINK]. [date of access]
+When using this web resource, please acknowledge it by including the URL (https://sl-iconicity.shinyapps.io/iconicity_patterns/) and the following reference: Kimmelman, Vadim, Anna Klezovich and George Moroz. 2017. *Iconicity Patterns in Sign Languages.* URL: https://sl-iconicity.shinyapps.io/iconicity_patterns/. [date of access]
