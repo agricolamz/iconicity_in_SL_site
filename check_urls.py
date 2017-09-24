@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # author: Anna Klezovich
+# e-mail: belkannkl@gmail.com
+# date: 23.09.17
+
+'''
+This program checks validity of list of urls from the file.
+'''
 
 import urllib.request as url_mod
 import csv
 
 
 def urls(file):
+    '''
+    This function gets all urls from the data by the key 'urls' and returns them as a list.
+
+    :param file:
+    :return url_s1: list
+    '''
 
     reader = csv.DictReader(open(file), fieldnames=['word', 'semantic field', 'image-concept association',\
                                                     'form-image association pattern', 'non iconic',\
@@ -20,6 +32,17 @@ def urls(file):
 
 
 def check(list_of_urls):
+    '''
+    This function checks, whether the page can be opened.
+
+    If not, we save its url and index. So that we can find
+
+    the row with failed url by this index in our data afterwords.
+
+    :param list_of_urls: list
+    :return failed: dict
+    '''
+
     failed = {}
     line = 0
     for url1 in list_of_urls:
