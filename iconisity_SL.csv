@@ -1,4 +1,4 @@
-word	semantic field	image-concept association	form-image assocaition pattern	non iconic	languages	urls	Localization 	Personification	Action	Parts/wholes
+word	semantic field	image-concept association	form-image assocaition pattern	non iconic	languages	urls	Localization	Personification	Action	Parts/wholes
 socks	clothes	form_similarity	contour+object		Russian Sign Language	https://media.spreadthesign.com/video/mp4/12/14975.mp4	0+0	0+0	0+0	0+0
 socks	clothes	assoc_action	handling		French Sign Language	https://media.spreadthesign.com/video/mp4/10/14974.mp4	0	1	1	0
 socks	clothes	-	-	nonicon	American Sign Language	https://media.spreadthesign.com/video/mp4/13/65921.mp4	-	-	-	-
@@ -11,7 +11,7 @@ socks	clothes	-&assoc_action	-&handling	nonicon&	Turkish Sign Language	https://m
 socks	clothes	-	-	nonicon	Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14982.mp4	-	-	-	-
 socks	clothes	form_similarity	tracing+object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14978.mp4	0+0	0+0	0+0	0+0
 socks	clothes	form_similarity	contour+object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14980.mp4	0+0	0+0	0+0	0+0
-socks	clothes	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/14983.mp4	0	1	1	0
+socks	clothes	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399194.mp4	0	0	1	0
 socks	clothes	form_similarity	tracing+object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102906.mp4	0+0	0+0	0+0	0+0
 socks	clothes	form_similarity	tracing+object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60933.mp4	0+0	0+0	0+0	0+0
 socks	clothes	form_similarity	contour+object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/57557.mp4	0+0	0+0	0+0	0+0
@@ -30,7 +30,7 @@ bicycle	transport	assoc_action	object		Turkish Sign Language	https://media.sprea
 bicycle	transport	assoc_action	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14133.mp4	0	0	1	0
 bicycle	transport	assoc_action	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14129.mp4	0	0	1	0
 bicycle	transport	assoc_action	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14131.mp4	0	0	1	0
-bicycle	transport	assoc_action	handling+handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/311877.mp4	0+0	1+1	1+1	0+0
+bicycle	transport	assoc_action	handling+handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/333422.mp4	0+0	1+1	1+1	0+0
 bicycle	transport	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60875.mp4	0	0	1	0
 bicycle	transport	assoc_action	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/63019.mp4	0	0	1	0
 bicycle	transport	assoc_action	object		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/52617.mp4	0	0	1	0
@@ -47,7 +47,7 @@ truck	transport	-	-	nonicon	Turkish Sign Language	https://media.spreadthesign.co
 truck	transport	assoc_action&-	handling&handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/25552.mp4	0&1	1&1	1&1	0&0
 truck	transport	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/25556.mp4	0	1	1	0
 truck	transport	-&form_similarity	-&tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/25557.mp4	-&0	-&0	-&0	-&0
-truck	transport	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/25554.mp4	0	0	0	0
+truck	transport	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401386.mp4	-	-	-	-
 truck	transport	assoc_action&form_similarity	handling&contour		Greek Sign Language	https://media.spreadthesign.com/video/mp4/38/210699.mp4	0&0	1&0	1&0	0&0
 truck	transport	assoc_action&form_similarity	handling&tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/182101.mp4	0&0	1&0	1&0	0&0
 truck	transport	assoc_action&form_similarity	handling&tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/75925.mp4	0&0	1&0	1&0	0&0
@@ -100,7 +100,7 @@ hat	clothes	assoc_action	handling		Turkish Sign Language	https://media.spreadthe
 hat	clothes	assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14858.mp4	1	1	1	0
 hat	clothes	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14854.mp4	1	1	1	0
 hat	clothes	assoc_action	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14856.mp4	1	0	1	0
-hat	clothes	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/14859.mp4	1	-	-	-
+hat	clothes	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402467.mp4	1	-	-	-
 hat	clothes	-	-	nonicon	Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55559.mp4	1	-	-	-
 hat	clothes	-	-	nonicon	Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/56794.mp4	1	-	-	-
 hat	clothes	-&assoc_action	-&handling	nonicon&	Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/52599.mp4	1&1	-&1	-&1	-&0
@@ -118,7 +118,7 @@ elephant	animals	parts/wholes	tracing		Turkish Sign Language	https://media.sprea
 elephant	animals	parts/wholes	tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/53745.mp4	1	0	0	1
 elephant	animals	parts/wholes	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13348.mp4	1	0	0	1
 elephant	animals	parts/wholes	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13350.mp4	1	0	0	1
-elephant	animals	parts/wholes	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13353.mp4	1	0	0	1
+elephant	animals	parts/wholes	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401879.mp4	1	0	0	1
 elephant	animals	parts/wholes	tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102104.mp4	1	0	0	1
 elephant	animals	parts/wholes	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60942.mp4	1	0	0	1
 elephant	animals	parts/wholes	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/63004.mp4	1	0	0	1
@@ -139,7 +139,7 @@ cat	animals	assoc_action	handling+object		Turkish Sign Language	https://media.sp
 cat	animals	assoc_action	object+object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13444.mp4	0+0	1+0	1+0	1+0
 cat	animals	parts/wholes	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13440.mp4	1	0	0	1
 cat	animals	parts/wholes	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13442.mp4	1	0	0	1
-cat	animals	parts/wholes	handling+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13445.mp4	0+0	1+0	1+0	0+1
+cat	animals	parts/wholes	handling+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399702.mp4	0+0	1+0	1+0	0+1
 cat	animals	parts/wholes	tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102026.mp4	1	0	0	1
 cat	animals	assoc_action	object+object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102025.mp4	0+0	1+0	1+0	1+0
 cat	animals	parts/wholes	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/257979.mp4	1	0	0	1
@@ -178,7 +178,7 @@ pear	food	form_similarity	hangling		Turkish Sign Language	https://media.spreadth
 pear	food	-	-	nonicon	Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/10615.mp4	-	-	-	-
 pear	food	form_similarity	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/10611.mp4	1	0	0	0
 pear	food	-	-	nonicon	Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/10613.mp4	1	-	-	-
-pear	food	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/10616.mp4	0+0	0+0	0+0	0+0
+pear	food	form_similarity	tracing+contour		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402795.mp4	0+0	0+0	0+0	0+0
 pear	food	form_similarity	tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/104075.mp4	0+0	0+0	0+0	0+0
 pear	food	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/54947.mp4	0	0	0	0
 pear	food	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/67006.mp4	0	0	0	0
@@ -191,12 +191,13 @@ cucumber	food	parts/wholes	contour		Spanish Sign Language	https://media.spreadth
 cucumber	food	form_similarity&-	tracing&-	&nonicon	Italian Sign Language	https://media.spreadthesign.com/video/mp4/17/177537.mp4	0&-	0&-	0&-	0&-
 cucumber	food	form_similarity	tracing		German Sign Language	https://media.spreadthesign.com/video/mp4/9/8438.mp4	0	0	0	0
 cucumber	food	form_similarity	tracing		Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/61881.mp4	0	0	0	0
-cucumber	food	assoc_action	handling+object		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/149386.mp4	0+0	1+0	1+0	0+0
+cucumber	food	form_similarity&-	contour&-	&nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392740.mp4	0&1	0&-	0&-	0&-
+cucumber	food	form_similarity&-	tracing&-	&nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392741.mp4	0&1	0&-	0&-	0&-
 cucumber	food	-	-	nonicon	Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/8442.mp4	-	-	-	-
 cucumber	food	-&form_similarity	-&tracing	nonicon&	Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/8436.mp4	-&0	-&0	-&0	-&0
 cucumber	food	form_similarity	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/8433.mp4	0	0	0	0
 cucumber	food	assoc_action	handling		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/43073.mp4	0	1	1	0
-cucumber	food	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/8437.mp4	0	0	0	0
+cucumber	food	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401972.mp4	0	0	0	0
 cucumber	food	-	-	dactyl	Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103595.mp4	-	-	-	-
 cucumber	food	assoc_action	handling		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55888.mp4	0	1	1	0
 cucumber	food	-&form_similarity	-&tracing	nonicon&	Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/64659.mp4	-&0	-&0	-&0	-&0
@@ -208,7 +209,7 @@ sausage	food	form_similarity	tracing		Spanish Sign Language	https://media.spread
 sausage	food	form_similarity	tracing		Italian Sign Language	https://media.spreadthesign.com/video/mp4/17/178078.mp4	0	0	0	0
 sausage	food	form_similarity	tracing		German Sign Language	https://media.spreadthesign.com/video/mp4/9/123884.mp4	0	0	0	0
 sausage	food	form_similarity	tracing		Polish Sign Language	https://media.spreadthesign.com/video/mp4/22/143788.mp4	0	0	0	0
-sausage	food	form_similarity	tracing		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/214618.mp4	0	0	0	0
+sausage	food	form_similarity	object+object		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392827.mp4	0+0	0+0	1+1	1+0
 sausage	food	form_similarity	tracing		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/320658.mp4	0	0	0	0
 sausage	food	-&form_similarity	-&tracing	nonicon&	Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/135440.mp4	-&0	-&0	-&0	-&0
 sausage	food	form_similarity	tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/54278.mp4	0	0	0	0
@@ -238,7 +239,7 @@ sun	nature	assoc_action	contour		Romanian Sign Language	https://media.spreadthes
 sun	nature	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/59306.mp4	0	0	0	0
 sun	nature	-&parts/wholes	-&object	nonicon&	Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/57583.mp4	1&1	-&0	-&1	-&0
 sun	nature	form_similarity	tracing		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/54432.mp4	1	0	0	0
-sky	nature	- 	tracing		Russian Sign Language	https://media.spreadthesign.com/video/mp4/12/100408.mp4	1	0	0	0
+sky	nature	-	tracing		Russian Sign Language	https://media.spreadthesign.com/video/mp4/12/100408.mp4	1	0	0	0
 sky	nature	-	tracing		British Sign Language	https://media.spreadthesign.com/video/mp4/1/141092.mp4	1	0	0	0
 sky	nature	-	tracing		French Sign Language	https://media.spreadthesign.com/video/mp4/10/158626.mp4	1	0	0	0
 sky	nature	-	tracing		American Sign Language	https://media.spreadthesign.com/video/mp4/13/94025.mp4	1	0	0	0
@@ -287,7 +288,7 @@ hammer	instruments	assoc_action	handling+object		Turkish Sign Language	https://m
 hammer	instruments	form_similarity&assoc_action	object+object&handling+object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/54.mp4	0+0&0+0	0+0&1+0	0+0&1+0	0+0&0+0
 hammer	instruments	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/50.mp4	0	1	1	0
 hammer	instruments	assoc_action	handling		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/52.mp4	0	1	1	0
-hammer	instruments	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/50348.mp4	0	1	1	0
+hammer	instruments	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/50143.mp4	0	1	1	0
 hammer	instruments	assoc_action	handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/222335.mp4	0	1	1	0
 hammer	instruments	assoc_action	handling		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/75050.mp4	0	1	1	0
 hammer	instruments	assoc_action	handling		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/70230.mp4	0	1	1	0
@@ -352,8 +353,7 @@ armchair	house	assoc_action&property/holder	object&handling		Brazilian Sign Lang
 armchair	house	assoc_action	object		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/135353.mp4	0	0	1	0
 armchair	house	parts/wholes	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/79589.mp4	0	0	0	1
 armchair	house	parts/wholes	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/132688.mp4	0	0	0	1
-armchair	house	parts/wholes	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/49551.mp4	0	0	0	1
-armchair	house	parts/wholes	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/52915.mp4	0	0	0	1
+armchair	house	parts/wholes	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401763.mp4	0	0	0	1
 armchair	house	parts/wholes	tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/217367.mp4	0	0	0	1
 armchair	house	assoc_action&parts/wholes	object&tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/68084.mp4	0&0	0&0	1&0	0&1
 armchair	house	parts/wholes	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/85059.mp4	0	0	0	1
@@ -370,7 +370,7 @@ lamp	house	assoc_action	object		Turkish Sign Language	https://media.spreadthesig
 lamp	house	assoc_action	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/100174.mp4	1+0	0+0	1+0	0+0
 lamp	house	assoc_action	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/6073.mp4	1	0	1	0
 lamp	house	assoc_action	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/6075.mp4	1	0	1	0
-lamp	house	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/6078.mp4	1	0	1	0
+lamp	house	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/403146.mp4	1	0	1	0
 lamp	house	assoc_action	object		Greek Sign Language	https://media.spreadthesign.com/video/mp4/38/218863.mp4	1	0	1	0
 lamp	house	assoc_action	object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/26/76845.mp4	1	0	1	0
 lamp	house	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/76845.mp4	1	0	1	0
@@ -482,7 +482,7 @@ car	transport	parts/wholes+assoc_action	handling		Turkish Sign Language	https://
 car	transport	parts/wholes+assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/4013.mp4	0	1	1	0
 car	transport	?	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/4009.mp4	0	1	1	0
 car	transport	parts/wholes+assoc_action	handling		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/4011.mp4	0	1	1	0
-car	transport	parts/wholes+assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/332470.mp4	0	1	1	0
+car	transport	parts/wholes+assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401140.mp4	0	1	1	0
 car	transport	parts/wholes+assoc_action&form_similarity	handling&tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102023.mp4	0&0	1&0	1&0	0&0
 car	transport	parts/wholes+assoc_action	handling		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55232.mp4	0	1	1	0
 car	transport	-	-	nonicon	Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/62984.mp4	-	-	-	-
@@ -500,7 +500,7 @@ plane	transport	assoc_action	object		Turkish Sign Language	https://media.spreadt
 plane	transport	assoc_action	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/24434.mp4	1	0	1	0
 plane	transport	parts/wholes	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/24437.mp4	0	1	1	1
 plane	transport	form_similarity	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/24438.mp4	1	0	1	0
-plane	transport	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/99143.mp4	0	0	1	0
+plane	transport	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/61575.mp4	0	0	1	0
 plane	transport	assoc_action	object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/180858.mp4	1	0	1	0
 plane	transport	parts/wholes	object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/180857.mp4	0	1	1	1
 plane	transport	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/57018.mp4	1	0	1	0
@@ -558,7 +558,6 @@ underground	transport	form_similarity&assoc_action	tracing&object+contour		Turki
 underground	transport	assoc_action	object+contour		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/16360.mp4	0+0	0+0	1+0	0+0
 underground	transport	assoc_action	object+contour		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/16356.mp4	0+0	0+0	1+0	0+0
 underground	transport	assoc_action	object+contour		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/16358.mp4	0+0	0+0	1+0	0+0
-underground	transport	assoc_action	object+contour		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/332671.mp4	0+0	0+0	1+0	0+0
 underground	transport	assoc_action&-	object+contour&-	&nonicon	Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103031.mp4	0+0&-	0+0&-	1+0&-	0+0&-
 underground	transport	assoc_action	object+contour		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/58279.mp4	0+0	0+0	1+0	0+0
 underground	transport	form_similarity&?	tracing&object+contour		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/253803.mp4	0&0+0	0&0+0	0&1+0	0&0+0
@@ -592,7 +591,7 @@ motorbike	transport	assoc_action	handling+handling		Turkish Sign Language	https:
 motorbike	transport	assoc_action	handling+handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14121.mp4	0+0	1+1	1+1	0+0
 motorbike	transport	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14117.mp4	0	1	1	0
 motorbike	transport	assoc_action	handling+handling		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14119.mp4	0+0	1+1	1+1	0+0
-motorbike	transport	assoc_action	object+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/14122.mp4	0+0	0+0	1+0	1+1
+motorbike	transport	assoc_action	object+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401409.mp4	0+0	0+0	1+0	1+1
 motorbike	transport	assoc_action	handling+handling		Greek Sign Language	https://media.spreadthesign.com/video/mp4/38/210704.mp4	0+0	1+1	1+1	0+0
 motorbike	transport	assoc_action	handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102588.mp4	0	1	1	0
 motorbike	transport	assoc_action	handling		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/57877.mp4	0	1	1	0
@@ -750,7 +749,7 @@ rainbow	nature	-&form_similarity	-&tracing	nonicon&	Turkish Sign Language	https:
 rainbow	nature	form_similarity	tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/41078.mp4	1	0	0	0
 rainbow	nature	form_similarity	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/41077.mp4	1	0	0	0
 rainbow	nature	form_similarity	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/42455.mp4	1	0	0	0
-rainbow	nature	assoc_action&form_similarity	object&tracing+contour		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/41079.mp4	0&0+0	0&0+0	1&0+0	0&0+0
+rainbow	nature	assoc_action&form_similarity	object&tracing+contour		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401786.mp4	0&0+0	0&0+0	1&0+0	0&0+0
 rainbow	nature	form_similarity	tracing+contour		Greek Sign Language	https://media.spreadthesign.com/video/mp4/38/194067.mp4	1+1	0+0	0+0	0+0
 rainbow	nature	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/67786.mp4	1	0	0	0
 rainbow	nature	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/67904.mp4	1	0	0	0
@@ -769,7 +768,7 @@ cloud	nature	form_similarity	tracing		Turkish Sign Language	https://media.spread
 cloud	nature	form_similarity	tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/17067.mp4	1	0	0	0
 cloud	nature	form_similarity	tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/17063.mp4	0	0	0	0
 cloud	nature	form_similarity	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/17065.mp4	1	0	0	0
-cloud	nature	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/17068.mp4	1	0	0	0
+cloud	nature	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402820.mp4	1	0	0	0
 cloud	nature	form_similarity	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/57887.mp4	0	0	1	0
 cloud	nature	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/63122.mp4	1	0	0	0
 cloud	nature	form_similarity	tracing		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/54367.mp4	1	0	0	0
@@ -848,7 +847,7 @@ desert	nature	-	-	nonicon	Turkish Sign Language	https://media.spreadthesign.com/
 desert	nature	-&form_similarity	handling&tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/40346.mp4	0&0	0&0	1&0	1&0
 desert	nature	form_similarity	handling&tracing		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/40342.mp4	0&0	0&0	1&0	1&0
 desert	nature	form_similarity	tracing+contour		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/42909.mp4	0+0	0+0	0+0	0+0
-desert	nature	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/40344.mp4	0	0	0	0
+desert	nature	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402825.mp4	0	0	0	0
 desert	nature	form_similarity	-	nonicon	Greek Sign Language	https://media.spreadthesign.com/video/mp4/38/193968.mp4	-	-	-	-
 desert	nature	assoc_action&form_similarity	handling&contour+tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/67781.mp4	0&0+0	1&0+0	1&0+0	1&0+0
 desert	nature	assoc_action&form_similarity	handling&tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/67631.mp4	0&0	1&0	1&0	1&0
@@ -933,7 +932,7 @@ tooth brush	instruments	-&assoc_action	-&handling	nonicon&	Turkish Sign Language
 tooth brush	instruments	assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13655.mp4	1	1	1	0
 tooth brush	instruments	assoc_action	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13651.mp4	1	0	1	0
 tooth brush	instruments	assoc_action	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13653.mp4	1	0	1	0
-tooth brush	instruments	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13656.mp4	1	0	1	0
+tooth brush	instruments	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402992.mp4	1	0	1	0
 tooth brush	instruments	assoc_action	handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103007.mp4	1	1	1	0
 tooth brush	instruments	-&assoc_action	-&handling	nonicon&	Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60950.mp4	1&1	-&1	-&1	-&0
 tooth brush	instruments	assoc_action	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/57630.mp4	1	0	1	0
@@ -987,7 +986,7 @@ dog	animals	assoc_action+parts/wholes	object		Turkish Sign Language	https://medi
 dog	animals	-	-	nonicon	Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13438.mp4	-	-	-	-
 dog	animals	-	-	nonicon	Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13434.mp4	-	-	-	-
 dog	animals	-	-	nonicon	Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13436.mp4	-	-	-	-
-dog	animals	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13439.mp4	1	1	1	0
+dog	animals	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402010.mp4	1	1	1	0
 dog	animals	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/63227.mp4	1	1	1	0
 dog	animals	assoc_action	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/63043.mp4	1	1	1	0
 dog	animals	-	-	nonicon	Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/52119.mp4	-	-	-	-
@@ -1042,7 +1041,7 @@ cow	animals	parts/wholes	object		Turkish Sign Language	https://media.spreadthesi
 cow	animals	parts/wholes	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13317.mp4	1	0	0	1
 cow	animals	parts/wholes	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13313.mp4	1	0	0	1
 cow	animals	parts/wholes	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13315.mp4	1	0	0	1
-cow	animals	parts/wholes	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13318.mp4	1	0	0	1
+cow	animals	parts/wholes	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401987.mp4	1	0	0	1
 cow	animals	parts/wholes	object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102058.mp4	1	0	0	1
 cow	animals	parts/wholes	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55672.mp4	1	0	0	1
 cow	animals	parts/wholes	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/63097.mp4	1	0	0	1
@@ -1062,7 +1061,7 @@ frog	animals	?	contour		Turkish Sign Language	https://media.spreadthesign.com/vi
 frog	animals	assoc_action	contour		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13596.mp4	1	0	1	1
 frog	animals	assoc_action	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13592.mp4	0	0	1	0
 frog	animals	assoc_action	object+object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13594.mp4	0+0	0+0	1+0	0+0
-frog	animals	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13597.mp4	1	-	-	-
+frog	animals	assoc_action	contour		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/401988.mp4	1	0	1	1
 frog	animals	-	-	dactyl	Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102273.mp4	-	-	-	-
 frog	animals	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60863.mp4	0	1	1	1
 frog	animals	assoc_action	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/56764.mp4	0	1	1	1
@@ -1080,7 +1079,8 @@ turtle	animals	form_similarity	object		Turkish Sign Language	https://media.sprea
 turtle	animals	assoc_action	object+object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13468.mp4	0+0	0+0	1+0	1+1
 turtle	animals	assoc_action	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13464.mp4	0	1	1	1
 turtle	animals	assoc_action	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13466.mp4	0	0	1	0
-turtle	animals	form_similarity	object+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/13469.mp4	0+0	0+0	1+0	1+1
+turtle	animals	form_similarity	object+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399718.mp4	0+0	0+0	1+0	1+1
+turtle	animals	form_similarity	object+object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399719.mp4	0	0	1	0
 turtle	animals	-	-	dactyl	Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103025.mp4	-	-	-	-
 turtle	animals	assoc_action	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55264.mp4	0	0	1	0
 turtle	animals	form_similarity	object+object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/57646.mp4	0+0	0+0	1+0	1+1
@@ -1116,7 +1116,7 @@ banana	food	assoc_action	handling+handling		Turkish Sign Language	https://media.
 banana	food	assoc_action	handling+object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/7195.mp4	0+0	1+0	1+0	0+0
 banana	food	assoc_action	handling+handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/7191.mp4	0+0	1+1	1+1	0+0
 banana	food	assoc_action	handling+handling		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/7193.mp4	0+0	1+1	1+1	0+0
-banana	food	assoc_action	handling+handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/50669.mp4	0+0	1+1	1+1	0+0
+banana	food	assoc_action	handling+handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399243.mp4	0+0	1+1	1+1	0+0
 banana	food	assoc_action	handling+handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103480.mp4	0+0	1+1	1+1	0+0
 banana	food	assoc_action	handling+handling		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/54881.mp4	0+0	1+1	1+1	0+0
 banana	food	assoc_action	handling+object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/64371.mp4	0+0	1+0	1+0	0+0
@@ -1130,7 +1130,8 @@ cake	food	-&form_similarity	-&contour	nonicon&	Italian Sign Language	https://med
 cake	food	assoc_action	handling		German Sign Language	https://media.spreadthesign.com/video/mp4/9/7749.mp4	0	1	1	0
 cake	food	form_similarity	contour+object		Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/61564.mp4	0+0	0+0	0+0	0+0
 cake	food	form_similarity	tracing+object		Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/61573.mp4	0+0	0+0	0+0	0+0
-cake	food	-	-	nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/147963.mp4	-	-	-	-
+cake	food	form_similarity	contour		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392756.mp4	0	0	0	0
+cake	food	assoc_action&form_similarity	object+contour&contour		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392757.mp4	0+0&0	0+0&0	1+0&0	0+0&0
 cake	food	assoc_action	handling		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/7752.mp4	1	1	1	0
 cake	food	-	-	nonicon	Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/7747.mp4	-	-	-	-
 cake	food	form_similarity	tracing+object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/7743.mp4	0+0	0+0	0+0	0+0
@@ -1186,12 +1187,13 @@ lemon	food	assoc_action	handling		Spanish Sign Language	https://media.spreadthes
 lemon	food	assoc_action	handling		Italian Sign Language	https://media.spreadthesign.com/video/mp4/17/177910.mp4	0	1	1	0
 lemon	food	form_similarity	contour		German Sign Language	https://media.spreadthesign.com/video/mp4/9/176434.mp4	1	0	0	0
 lemon	food	assoc_action	handling		Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/63999.mp4	0	1	1	0
-lemon	food	-	-	nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/156038.mp4	-	-	-	-
+lemon	food	-	-	nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392725.mp4	1	-	-	-
+lemon	food	-	-	nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392726.mp4	1	-	-	-
 lemon	food	assoc_action	handling		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/321654.mp4	0	1	1	0
 lemon	food	assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/9802.mp4	0	1	1	0
 lemon	food	-&assoc_action	-&handling	nonicon&	Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/9798.mp4	-&0	-&1	-&1	-&0
 lemon	food	-	-	nonicon	Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/9800.mp4	-	-	-	-
-lemon	food	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/9803.mp4	-	-	-	-
+lemon	food	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402793.mp4	1	-	-	-
 lemon	food	assoc_action	handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/103996.mp4	0	1	1	0
 lemon	food	-	-	nonicon	Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55001.mp4	-	-	-	-
 lemon	food	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/66823.mp4	0	0	0	0
@@ -1205,13 +1207,14 @@ carrot	food	assoc_action	handling		Spanish Sign Language	https://media.spreadthe
 carrot	food	assoc_action	handling		Italian Sign Language	https://media.spreadthesign.com/video/mp4/17/206123.mp4	1	1	1	0
 carrot	food	assoc_action	object+object		German Sign Language	https://media.spreadthesign.com/video/mp4/9/161546.mp4	0+0	0+0	1+0	0+0
 carrot	food	assoc_action	object+object		Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/76078.mp4	0+0	0+0	1+0	0+0
-carrot	food	form_similarity&-	tracing&-	&nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/148378.mp4	0&-	0&-	0&-	0&-
+carrot	food	assoc_action	handling		Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392751.mp4	1	1	1	0
+carrot	food	assoc_action&-	handling&-	&nonicon	Brazilian Sign Language	https://media.spreadthesign.com/video/mp4/14/392752.mp4	1&1	1&-	1&-	0&-
 carrot	food	assoc_action	handling		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/318550.mp4	1	1	1	0
 carrot	food	assoc_action	object		Turkish Sign Language	https://media.spreadthesign.com/video/mp4/11/142700.mp4	1	0	1	0
 carrot	food	assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/113405.mp4	1	1	1	0
 carrot	food	-&assoc_action	-&object+object	nonicon&	Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/112449.mp4	-&0+0	-&0+0	-&1+0	-&0+0
 carrot	food	assoc_action	object+object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/124133.mp4	0+0	0+0	1+0	0+0
-carrot	food	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/49442.mp4	1	1	1	0
+carrot	food	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/399723.mp4	1	1	1	0
 carrot	food	assoc_action	object+object		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/217801.mp4	0+0	0+0	1+0	0+0
 carrot	food	assoc_action	object+object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/68171.mp4	0+0	0+0	1+0	0+0
 carrot	food	assoc_action	object+object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/84563.mp4	0+0	0+0	1+0	0+0
@@ -1270,7 +1273,7 @@ scarf	clothes	assoc_action	object		Turkish Sign Language	https://media.spreadthe
 scarf	clothes	assoc_action	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14841.mp4	1	0	1	0
 scarf	clothes	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14837.mp4	1	1	1	0
 scarf	clothes	form_similarity	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14839.mp4	1	0	0	0
-scarf	clothes	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/293422.mp4	1	1	1	0
+scarf	clothes	form_similarity&assoc_action	tracing&handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/402464.mp4	1&1	0&1	0&1	0&0
 scarf	clothes	-	-	dactyl	Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/102844.mp4	-	-	-	-
 scarf	clothes	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/60989.mp4	1	0	0	0
 scarf	clothes	assoc_action	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/60707.mp4	1	0	0	0
@@ -1306,7 +1309,8 @@ trousers	clothes	assoc_action	handling		Turkish Sign Language	https://media.spre
 trousers	clothes	assoc_action	handling		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/14791.mp4	1	1	1	0
 trousers	clothes	-	contour		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/14787.mp4	1	0	0	0
 trousers	clothes	form_similarity	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/14789.mp4	0	0	0	1
-trousers	clothes	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/14792.mp4	0	0	0	0
+trousers	clothes	assoc_action	handling		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/400895.mp4	1	1	1	0
+trousers	clothes	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/400897.mp4	1	0	0	0
 trousers	clothes	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55255.mp4	0	0	0	1
 trousers	clothes	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/65124.mp4	0	0	0	0
 trousers	clothes	assoc_action	handling		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/52381.mp4	0	1	1	0
@@ -1345,7 +1349,7 @@ cup	instruments	form_similarity&form_similarity	tracing&contour+object		Latvian 
 cup	instruments	form_similarity	contour+object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/66864.mp4	0+0	0+0	0+0	0+0
 cup	instruments	assoc_action	handling		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/98057.mp4	1	1	1	0
 kettle	instruments	assoc_action	object		Russian Sign Language	https://media.spreadthesign.com/video/mp4/12/9696.mp4	0	0	1	0
-kettle	instruments	-	-	dactyl	American Sign Language	https://media.spreadthesign.com/video/mp4/13/91509.mp4	-	-	-	-
+kettle	instruments	-	-	dactyl	American Sign Language	https://media.spreadthesign.com/video/mp4/13/399751.mp4	-	-	-	-
 kettle	instruments	assoc_action	object		British Sign Language	https://media.spreadthesign.com/video/mp4/1/9692.mp4	0	0	1	0
 kettle	instruments	form_similarity&assoc_action	tracing&handling+contour		German Sign Language	https://media.spreadthesign.com/video/mp4/9/9697.mp4	0&0+0	0&1+0	0&1+0	0&0+0
 kettle	instruments	-&assoc_action	-&object	nonicon&	Polish Sign Language	https://media.spreadthesign.com/video/mp4/19/61582.mp4	-&0	-&0	-&1	-&0
@@ -1358,7 +1362,7 @@ kettle	instruments	?&?	object&tracing		Estonian Sign Language	https://media.spre
 kettle	instruments	assoc_action	handling		Icelandic Sign Language	https://media.spreadthesign.com/video/mp4/21/160277.mp4	0	1	1	0
 key	instruments	assoc_action	handling		Russian Sign Language	https://media.spreadthesign.com/video/mp4/12/228353.mp4	0	1	1	0
 key	instruments	assoc_action	handling		French Sign Language	https://media.spreadthesign.com/video/mp4/10/158717.mp4	0	1	1	0
-key	instruments	assoc_action	object+object		American Sign Language	https://media.spreadthesign.com/video/mp4/13/89834.mp4	0+0	0+0	1+0	0+0
+key	instruments	assoc_action	object+object		American Sign Language	https://media.spreadthesign.com/video/mp4/13/399752.mp4	0+0	0+0	1+0	0+0
 key	instruments	assoc_action	handling		British Sign Language	https://media.spreadthesign.com/video/mp4/1/250290.mp4	0	1	1	0
 key	instruments	assoc_action	handling		Spanish Sign Language	https://media.spreadthesign.com/video/mp4/5/179522.mp4	0	1	1	0
 key	instruments	assoc_action	handling		Italian Sign Language	https://media.spreadthesign.com/video/mp4/17/223934.mp4	0	1	1	0
@@ -1408,7 +1412,7 @@ window	house	assoc_action	handling		Turkish Sign Language	https://media.spreadth
 window	house	assoc_action	object		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/3138.mp4	0	1	1	0
 window	house	assoc_action	handling		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/3134.mp4	1	1	1	0
 window	house	form_similarity	tracing		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/3136.mp4	1	0	0	0
-window	house	-	-	nonicon	Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/3139.mp4	-	-	-	-
+window	house	assoc_action	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/397448.mp4	0	0	1	0
 window	house	form_similarity&assoc_action	tracing&handling		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/222553.mp4	1&0	0&1	0&1	0&0
 window	house	form_similarity	tracing		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/74799.mp4	1	0	0	0
 window	house	form_similarity	tracing		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/70911.mp4	0	0	0	0
@@ -1443,7 +1447,8 @@ bed	house	form_similarity&form_similarity	tracing&handling		Turkish Sign Languag
 bed	house	assoc_action&form_similarity	object&tracing		Portuguese Sign Language	https://media.spreadthesign.com/video/mp4/6/13746.mp4	1&0	1&0	1&0	0&0
 bed	house	form_similarity	object		Czech Sign Language	https://media.spreadthesign.com/video/mp4/4/13742.mp4	0	0	0	0
 bed	house	form_similarity	object		Lithuanian Sign Language	https://media.spreadthesign.com/video/mp4/3/13744.mp4	0	0	0	0
-bed	house	form_similarity	object		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/52207.mp4	0	0	0	0
+bed	house	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/403081.mp4	0	0	0	0
+bed	house	form_similarity	tracing		Swedish Sign Language	https://media.spreadthesign.com/video/mp4/2/403082.mp4	0	0	0	0
 bed	house	form_similarity	tracing		Romanian Sign Language	https://media.spreadthesign.com/video/mp4/30/101990.mp4	0	0	0	0
 bed	house	form_similarity	object		Latvian Sign Language	https://media.spreadthesign.com/video/mp4/26/55681.mp4	0	0	0	0
 bed	house	form_similarity	object		Estonian Sign Language	https://media.spreadthesign.com/video/mp4/25/56628.mp4	0	0	0	0
