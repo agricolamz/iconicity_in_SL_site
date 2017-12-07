@@ -99,12 +99,12 @@ function(input, output) {
 
 # section for graphs ------------------------------------------------------
   output$graph_picture <- renderPlot({
-    title <- "Destribution of the Iconicity patterns in all semantic fields"
+    title <- "Distribution of the Iconicity patterns in all semantic fields"
     if(input$graph_field != "all"){
       database_p %>%
         filter(semantic.field %in% input$graph_field) ->
         database_p
-      title <- paste("Destribution of the Iconicity patterns in the semantic field", input$graph_field)
+      title <- paste("Distribution of the Iconicity patterns in the semantic field", input$graph_field)
     }
 
     ifelse(input$graph_field != "all",
