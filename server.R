@@ -133,7 +133,7 @@ function(input, output) {
         geom_text(aes(label = scales::percent(..prop..),
                       y= ..prop..+0.1), stat= "count") +
         scale_y_continuous(labels=scales::percent) +
-        labs(y = "percantage", title = title, x = "") +
+        labs(y = "percentage", title = title, x = "") +
         facet_wrap(~languages)+
         theme_bw()+
         coord_flip()
