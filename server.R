@@ -93,7 +93,7 @@ function(input, output) {
     map.feature(database$languages,
                 label = paste0(database$language, " (", database_count$n, ")"),
                 map.orientation = "Atlantic",
-                radius = database_count$n*5,
+                width = database_count$n*5,
                 zoom.level = 2,
                 zoom.control = TRUE)})
 
