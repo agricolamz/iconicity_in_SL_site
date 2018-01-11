@@ -281,7 +281,7 @@ the following features:
 2.  Personification: +/-
 3.  Associated action: +/-
 4.  Parts for wholes: +/-
-5.  Localization: +/-
+5.  Location: +/-
 
 And we use the following rules to automatically exclude some
 combinations of features:
@@ -459,7 +459,7 @@ package) for iconic features, are summarized in the table:
 <td>Substantial agreement</td>
 </tr>
 <tr class="odd">
-<td>Localization</td>
+<td>Location</td>
 <td></td>
 <td>0.76</td>
 <td></td>
@@ -505,13 +505,13 @@ can select one of the 84 concepts, which are repseresented as dots on
 the map with color-coding of the form-image mapping. Each dot on the map
 is clickable and opens the video of the relevant sign (see Figure 1).
 The user can also filter the data points by specifying the values of the
-associated action, localization, personification, and part-whole
+associated action, location, personification, and part-whole
 features. The maps are created with the *lingtypology* package (Moroz,
 2017).
 
 The second tool visualizes the semantic fields on the map. The user can
 select one of the seven semantic fields, and then specify the form-image
-mapping and the values of the associated action, localization,
+mapping and the values of the associated action, location,
 personification, and part-whole features; the signs which conform the
 selection appear on the map. In addition, a table is generated
 containing the concepts and languages with the relevant feature

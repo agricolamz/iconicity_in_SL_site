@@ -9,25 +9,31 @@ library(leaflet)
 
 function(input, output) {
 # section for word search -------------------------------------------------
-  database <- read.csv("iconisity_SL.csv", sep = "\t", stringsAsFactors = FALSE)
+  database <- read.csv("iconicity_SL.csv", sep = "\t", stringsAsFactors = FALSE)
   output$full_table <- DT::renderDataTable(
-    database[, -c(5, 7)],
+    database[, -c(4, 6)],
+    filter = 'top',
+    rownames = FALSE,
+    options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
+    escape = FALSE)
+  output$refactored_table <- DT::renderDataTable(
+    read.csv("refactored_table.csv", sep = "\t", stringsAsFactors = FALSE)[, -c(4, 6)],
     filter = 'top',
     rownames = FALSE,
     options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
     escape = FALSE)
   database %>% 
     mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
-    mutate(object = ifelse(grepl("object", form.image.assocaition.pattern),
+    mutate(object = ifelse(grepl("object", form.image.association.pattern),
                            "object",
                            NA),
-           handling = ifelse(grepl("handling", form.image.assocaition.pattern),
+           handling = ifelse(grepl("handling", form.image.association.pattern),
                              "handling",
                              NA),
-           tracing = ifelse(grepl("tracing", form.image.assocaition.pattern),
+           tracing = ifelse(grepl("tracing", form.image.association.pattern),
                             "tracing",
                             NA),
-           contour = ifelse(grepl("contour", form.image.assocaition.pattern),
+           contour = ifelse(grepl("contour", form.image.association.pattern),
                             "contour",
                             NA)) %>%
     gather(pattern_column, pattern, object:contour) %>%
@@ -45,8 +51,8 @@ function(input, output) {
   if(input$part_wholes == "all"){part_wholes <- "[01-]"}
   database %>%
     filter(word %in% input$word_search,
-           #grepl(input$iconicity_pattern, form.image.assocaition.pattern),
-           grepl(loc, Localization),
+           #grepl(input$iconicity_pattern, form.image.association.pattern),
+           grepl(loc, Location),
            grepl(person, Personification),
            grepl(act, Action),
            grepl(part_wholes, Parts.wholes)) ->
@@ -56,7 +62,7 @@ function(input, output) {
     map.feature(database$languages,
                 label = database$language,
                 map.orientation = "Atlantic",
-                features = database$form.image.assocaition.pattern,
+                features = database$form.image.association.pattern,
                 popup = paste("<video width='200' height='150' controls> <source src='",
                               as.character(database$urls),
                               "' type='video/mp4'></video>", sep = ""),
@@ -75,8 +81,8 @@ function(input, output) {
     if(input$part_wholes_f == "all"){part_wholes <- "[01-]"}
     database %>%
       filter(semantic.field %in% input$field_search,
-             grepl(input$iconicity_pattern_f, form.image.assocaition.pattern),
-             grepl(loc, Localization),
+             grepl(input$iconicity_pattern_f, form.image.association.pattern),
+             grepl(loc, Location),
              grepl(person, Personification),
              grepl(act, Action),
              grepl(part_wholes, Parts.wholes))  ->
