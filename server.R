@@ -71,33 +71,36 @@ function(input, output) {
 
 # section for semantic field search ---------------------------------------
   output$field_map <- renderLeaflet({
-    loc <- ifelse(input$loc_f == TRUE, "1", "[^1]")
-    if(input$loc_f == "all"){loc <- "[01-]"}
-    person <- ifelse(input$person_f == TRUE, "1", "[^1]")
-    if(input$person_f == "all"){person <- "[01-]"}
-    act <- ifelse(input$act_f == "yes", "1", "[^1]")
-    if(input$act_f == "all"){act <- "[01-]"}
-    part_wholes <- ifelse(input$part_wholes_f == TRUE, "1", "[^1]")
-    if(input$part_wholes_f == "all"){part_wholes <- "[01-]"}
+    loc_f <- ifelse(input$loc_f == "yes", "1", "[^1]")
+    if(input$loc_f == "all"){loc_f <- "[01-]"}
+    person_f <- ifelse(input$person_f == "yes", "1", "[^1]")
+    if(input$person_f == "all"){person_f <- "[01-]"}
+    act_f <- ifelse(input$act_f == "yes", "1", "[^1]")
+    if(input$act_f == "all"){act_f <- "[01-]"}
+    part_wholes_f <- ifelse(input$part_wholes_f == "yes", "1", "[^1]")
+    if(input$part_wholes_f == "all"){part_wholes_f <- "[01-]"}
     database %>%
       filter(semantic.field %in% input$field_search,
              grepl(input$iconicity_pattern_f, form.image.association.pattern),
-             grepl(loc, Location),
-             grepl(person, Personification),
-             grepl(act, Action),
-             grepl(part_wholes, Parts.wholes))  ->
-      database 
+             grepl(loc_f, Location),
+             grepl(person_f, Personification),
+             grepl(act_f, Action),
+             grepl(part_wholes_f, Parts.wholes)) ->
+      database
     database %>% 
-      count(word, languages) ->
+      count(word, languages) %>% 
+      right_join(database)->
       database_count
     output$field_table <- DT::renderDataTable(
-      database[,c(1, 6)],
+      database_count[,c(1, 5)],
       filter = 'top',
       rownames = FALSE,
       options = list(pageLength = 7, autoWidth = FALSE, dom = 'tip'),
       escape = FALSE)
-    map.feature(database$languages,
-                label = paste0(database$language, " (", database_count$n, ")"),
+    validate(need(nrow(database) > 0,
+                  "This combination of features for this meaning is not attested."))
+    map.feature(database_count$languages,
+                label = paste0(database_count$languages, " (", database_count$n, ")"),
                 map.orientation = "Atlantic",
                 width = database_count$n*5,
                 zoom.level = 2,
@@ -143,5 +146,4 @@ function(input, output) {
         facet_wrap(~languages)+
         theme_bw()+
         coord_flip()
-      }})
-  }
+      }})}
