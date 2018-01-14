@@ -102,7 +102,7 @@ subtypes. The whole classification is as follows:
     sign [CHAIR](https://media.spreadthesign.com/video/mp4/12/7905.mp4).
 -   Contour mapping. The hand (usually two hands) represents the outline
     or surface of an object. For instance, the two hands touching at an
-    angle can represent the roof of a house in the RSL sign \[HOUSE\]
+    angle can represent the roof of a house in the RSL sign [HOUSE]
     (<https://media.spreadthesign.com/video/mp4/12/349172.mp4>).
 -   Tracing mapping. The hands move to trace an outline or surface of
     an object. For instance, a flat hand can move in an arc-shaped
@@ -141,12 +141,12 @@ distinguish between the handling and non-handling cases.
 In order to address this issue, we decided to separate this
 classification into two separate classifications: form-image mapping and
 personification. Personification is a binary feature, and we define it
-as follows: the sign is \[+personification\] if the whole body (the
+as follows: the sign is [+personification] if the whole body (the
 hands, arms, upper body, and head) are a part of the iconic
 representation. The form-image mapping in our definition can contain one
 of four values: handling, object, contour, or tracing. Not all
 combinations of the two features are possible: if the sign has contour
-or tracing mapping, it cannot be \[+personification\], as the hands do
+or tracing mapping, it cannot be [+personification], as the hands do
 not represent the hands of a person or animal. However, both handling
 and object mappings are compatible with personification, and the
 handling mapping always implies personification. The relation between
@@ -242,22 +242,22 @@ incompatibility of some form-meaning associations with these features.
 Thus we had to stipulate some rules to describe these incompatibilities.
 In particular, we formulated the following rules in advance:
 
-1.  The \[+personification\] feature necessarily implies \[-part-whole\]
-2.  The \[tracing\] form-image mapping necessarily implies \[-associated
-    action\]
+1.  The [+personification] feature necessarily implies [-part-whole]
+2.  The [tracing] form-image mapping necessarily implies [-associated
+    action]
 
 The first rule is based on the idea that if the whole body is involved
-in representing a person or an animal \[+personification\], the sign
+in representing a person or an animal [+personification], the sign
 simply cannot represent only a part of it. The second rule is based on
-the idea that in the \[tracing\] signs the movement is used to outline
+the idea that in the [tracing] signs the movement is used to outline
 an object, so it cannot also reflect the movement of the object.
 
 Finally, neither Taub’s (2001) nor Klezovich’s (2017) approach addresses
 the following issue: quite often, signs have iconic locations. The
 approaches described above primarily concern iconic use of handshape and
 movement. Specifically, in all types of form-image mappings, the
-handshape is used iconically; if the signs is \[+associated movement\]
-or \[+tracing\], the movement is necessarily iconic as well. However,
+handshape is used iconically; if the signs is [+associated movement]
+or [+tracing], the movement is necessarily iconic as well. However,
 whether the location of the sign is iconic or not, is not reflected by
 any of the features. Moreover, as we discuss in the next section, even
 signs which would be classified as non-iconic, might have iconic
@@ -286,12 +286,12 @@ the following features:
 And we use the following rules to automatically exclude some
 combinations of features:
 
-1.  \[tracing\] → \[-personification\]
-2.  \[contour\] → \[-personification\]
-3.  \[handling\] → \[+personification\]
-4.  \[+personification\] → \[-part-whole\]
-5.  \[tracing\] → \[-associated action\]
-6.  Neutral location → \[-location\]
+1.  [tracing] → [-personification]
+2.  [contour] → [-personification]
+3.  [handling] → [+personification]
+4.  [+personification] → [-part-whole]
+5.  [tracing] → [-associated action]
+6.  Neutral location → [-location]
 
 ### Non-iconic signs
 
@@ -366,7 +366,7 @@ we annotate the form-image mapping of the sign Icelandic sign
 tracing+contour&object+contour.
 
 Two-handed signs present an additional complication for the
-\[part-whole\] feature. There are two classes of cases for which the
+[part-whole] feature. There are two classes of cases for which the
 second hand can be annotated as positive or negative with respect to
 this feature, so we have to stipulate rules to annotate such cases
 systematically.
@@ -379,7 +379,7 @@ clear that the active hand represents the whole referent, but the
 passive hand can be interpreted as representing some part of the
 referent. However, since it is not clear what this part is, and whether
 this is a salient part of the whole object, we gloss the passive hand in
-all such cases as \[-part-whole\].
+all such cases as [-part-whole].
 
 The second case concerns signs where the passive hand in fact represents
 an object which is different from the main referent of the sign, but
@@ -388,7 +388,7 @@ sign [SPOON](https://media.spreadthesign.com/video/mp4/11/11821.mp4) the
 passive hand represents a plate. This other referent can be interpreted
 as being a part of the whole image, but, on the other hand, this
 referent is not a part of the main referent of the sign. We thus also
-always annotated the passive hand in such cases as \[-part-whole\].
+always annotated the passive hand in such cases as [-part-whole].
 
 ### Reliability of annotations
 
@@ -479,9 +479,9 @@ the authors originally interpreted this feature in a different way for
 three classes of signs. Firstly, in the signs for animals where the
 hands represent paws/wings of an animal. According to the annotation
 guidelines discussed above, such cases should be analyzed as
-\[-part-whole\], as the whole body represents the body of the animal.
+[-part-whole], as the whole body represents the body of the animal.
 One of the authors however consistently glossed these signs as
-\[+part-whole\]. The other two classes are the asymmetrical signs
+[+part-whole]. The other two classes are the asymmetrical signs
 discussed in the previous section, in which the role of the second hand
 is unclear with respect to this feature. One of the authors annotated in
 accordance with the rules formulated above, while the other did not.

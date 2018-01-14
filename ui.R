@@ -50,9 +50,13 @@ navbarPage("Iconicity patterns in Sign Languges",
                              DT::dataTableOutput("full_table")))),
            tabPanel("Refactored table",
                     fluidRow(column(1,""),
-                             tagList("This table represents the same data as in raw data, but all compounds are divided in two rows (first, second) and all two-handed signs are also divided in two rows (active hand, secondary hand). Download the data: ", a(".tsv", href="https://goo.gl/fwq8yg")),
-                             tagList()),
+                             tagList("This table represents the same data as in raw data, but all compounds are divided in two rows (first, second) and all two-handed signs are also divided in two rows (active hand, secondary hand)")),
+                    fluidRow(column(1,""),
+                             tagList("Download the data: ", a(".tsv", href="https://goo.gl/fwq8yg"))),
                     fluidRow(column(11,
                                     DT::dataTableOutput("refactored_table")))),
            tabPanel("About",
-                    includeMarkdown("about.md")))
+                    includeMarkdown("about.md")),
+           div(class = "footer",
+               includeHTML("footer.html")
+           ))

@@ -3,37 +3,42 @@ library(DT)
 library(lingtypology)
 library(ggplot2)
 library(dplyr)
+library(readr)
 library(tidyr)
 library(markdown)
 library(leaflet)
 
 function(input, output) {
 # section for word search -------------------------------------------------
-  database <- read.csv("iconicity_SL.csv", sep = "\t", stringsAsFactors = FALSE)
+read_tsv("iconicity_SL.csv") %>% 
+    filter(grepl("0", .$`non iconic`)) %>% 
+    mutate(word_link = paste0('<a target="_blank" href="', urls, '">', word, "</a>")) ->
+    database
+    
   output$full_table <- DT::renderDataTable(
-    database[, -c(4, 6)],
+    read_tsv("iconicity_SL.csv")[, -c(4, 6)],
     filter = 'top',
     rownames = FALSE,
     options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
     escape = FALSE)
   output$refactored_table <- DT::renderDataTable(
-    read.csv("refactored_table.csv", sep = "\t", stringsAsFactors = FALSE)[, -c(4, 6)],
+    read_tsv("refactored_table.csv")[, -c(4, 6)],
     filter = 'top',
     rownames = FALSE,
     options = list(pageLength = 20, autoWidth = FALSE, dom = 'tip'),
     escape = FALSE)
   database %>% 
     mutate(languages = gsub("Sign Language", "SL", languages)) %>% 
-    mutate(object = ifelse(grepl("object", form.image.association.pattern),
+    mutate(object = ifelse(grepl("object", `form-image association pattern`),
                            "object",
                            NA),
-           handling = ifelse(grepl("handling", form.image.association.pattern),
+           handling = ifelse(grepl("handling", `form-image association pattern`),
                              "handling",
                              NA),
-           tracing = ifelse(grepl("tracing", form.image.association.pattern),
+           tracing = ifelse(grepl("tracing", `form-image association pattern`),
                             "tracing",
                             NA),
-           contour = ifelse(grepl("contour", form.image.association.pattern),
+           contour = ifelse(grepl("contour", `form-image association pattern`),
                             "contour",
                             NA)) %>%
     gather(pattern_column, pattern, object:contour) %>%
@@ -51,18 +56,18 @@ function(input, output) {
   if(input$part_wholes == "all"){part_wholes <- "[01-]"}
   database %>%
     filter(word %in% input$word_search,
-           #grepl(input$iconicity_pattern, form.image.association.pattern),
+           #grepl(input$iconicity_pattern, `form-image association pattern`),
            grepl(loc, Location),
            grepl(person, Personification),
            grepl(act, Action),
-           grepl(part_wholes, Parts.wholes)) ->
+           grepl(part_wholes, `Parts/wholes`)) ->
       database
   validate(need(nrow(database) > 0,
                 "This combination of features for this meaning is not attested."))
     map.feature(database$languages,
                 label = database$language,
                 map.orientation = "Atlantic",
-                features = database$form.image.association.pattern,
+                features = database$`form-image association pattern`,
                 popup = paste("<video width='200' height='150' controls> <source src='",
                               as.character(database$urls),
                               "' type='video/mp4'></video>", sep = ""),
@@ -80,19 +85,19 @@ function(input, output) {
     part_wholes_f <- ifelse(input$part_wholes_f == "yes", "1", "[^1]")
     if(input$part_wholes_f == "all"){part_wholes_f <- "[01-]"}
     database %>%
-      filter(semantic.field %in% input$field_search,
-             grepl(input$iconicity_pattern_f, form.image.association.pattern),
+      filter(`semantic field` %in% input$field_search,
+             grepl(input$iconicity_pattern_f, `form-image association pattern`),
              grepl(loc_f, Location),
              grepl(person_f, Personification),
              grepl(act_f, Action),
-             grepl(part_wholes_f, Parts.wholes)) ->
+             grepl(part_wholes_f, `Parts/wholes`)) ->
       database
     database %>% 
       count(word, languages) %>% 
       right_join(database)->
       database_count
     output$field_table <- DT::renderDataTable(
-      database_count[,c(1, 5)],
+      database_count[,c(12,2)],
       filter = 'top',
       rownames = FALSE,
       options = list(pageLength = 7, autoWidth = FALSE, dom = 'tip'),
@@ -111,14 +116,14 @@ function(input, output) {
     title <- "Distribution of the Iconicity patterns in all semantic fields"
     if(input$graph_field != "all"){
       database_p %>%
-        filter(semantic.field %in% input$graph_field) ->
+        filter(`semantic field` %in% input$graph_field) ->
         database_p
       title <- paste("Distribution of the Iconicity patterns in the semantic field", input$graph_field)
     }
 
     ifelse(input$graph_field != "all",
-           database_t <- database_p[, c(1, 6, 4)],
-           database_t <- database_p[, c(1, 2, 6, 4)])
+           database_t <- database_p[, c(11, 5)],
+           database_t <- database_p[, c(11, 2, 5)])
     output$graph_table <- DT::renderDataTable(
       database_t,
       filter = 'top',
